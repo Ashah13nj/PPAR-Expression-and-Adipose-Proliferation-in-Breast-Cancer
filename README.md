@@ -1,1 +1,1 @@
-# PPAR-Expression-and-Adipose-Proliferation-in-Breast-Cancer
+This is a repository for the paper "Interactions Among Tumor Subtype, PPARγ Expression, and Adipose Proliferation Shape Outcomes in Breast Cancer”. The custom R-scripts utilized for statistical analyses have been included; effect size testing was performed in jupyter notebook in python, which has also now been included.
