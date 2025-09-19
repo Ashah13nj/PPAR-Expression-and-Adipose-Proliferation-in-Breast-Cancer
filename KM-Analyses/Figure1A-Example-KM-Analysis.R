@@ -206,12 +206,11 @@ km$table <- km$table +
 
 print(km)
 
-# =======================
 # Save PDF
-# =======================
+
 pdf(PDF_OUT, width=6.5, height=5.6)
 print(km)
 dev.off()
 cat(sprintf("Saved PDF: %s\n", normalizePath(PDF_OUT)))
 
-#use the loaded Clinical Matrix to stratify by Tumor Type (Figure 2) or to perform analyses by menopause status (Figure 1B-C). Use variable names as listed in source dataset, eg. Her2_Final_Status_Nature2012 or Menopause_status. Use median to separate patient cohorts by gene expression, as shown above as 6.903 for overall cohort.
+# Use the loaded Clinical Matrix to stratify by Tumor Type (Figure 2) or to perform analyses by menopause status (Figure 1B-C). Use variable names as listed in source dataset, eg. Her2_Final_Status_Nature2012 or Menopause_status. Use median to separate patient cohorts by gene expression, as shown above as 6.903 for overall cohort.
