@@ -11,7 +11,7 @@ expr_path <- "/Users/ashah/Downloads/TCGA.BRCA.sampleMap_HiSeqV2"
 clin_path <- "/Users/ashah/Downloads/TCGA.BRCA.sampleMap_BRCA_clinicalMatrix"
 stopifnot(file.exists(expr_path), file.exists(clin_path))
 
-# 
+# Gene Expression
 TARGET_GENE <- "PPARG"
 CUTOFF      <- 6.903
 ROUND_DP    <- 3
